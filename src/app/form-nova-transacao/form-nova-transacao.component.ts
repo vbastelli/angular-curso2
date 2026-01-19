@@ -21,8 +21,5 @@ export class FormNovaTransacaoComponent {
     );
 
     this.transacaoCriada.emit(transacao);
-
-    console.log(this.valorTransacao);
-    console.log(this.tipoTransacao);
   }
 }
